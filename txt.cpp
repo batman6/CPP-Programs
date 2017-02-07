@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+class Square;
+
+class Rectangle {
+	int width, height;
+
+public:
+	Rectangle(int w = 1, int h = 1):width(w),height(h){}
+	void display() {
+		cout << "Rectangle: " << width * height << endl;
+	}
+	void morph(Square &);
+	//friend class Square;
+};
+
+class Square {
+	int side;
+
+public:
+	Square(int s = 1):side(s){}
+	void display() {
+		cout << "Square: " << side * side << endl;
+	}
+	friend class Rectangle;
+};
+
+void Rectangle::morph(Square &s) {
+	width = s.side;
+	height = s.side;
+}
+
+int main () {
+	Rectangle rec(5,10);
+	Square sq(5);
+	cout << "Before:" << endl;
+	rec.display();//50
+	sq.display();//25
+
+	rec.morph(sq);
+	cout << "\nAfter:" << endl;
+	rec.display();//25
+	sq.display();//25
+	return 0;
+}

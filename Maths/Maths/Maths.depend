@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1475748257 source:e:\study\c++\lab works\maths\maths\main.cpp
+	<iostream>
+	<string>
+	"Mathematics.h"
+
+1476728152 e:\study\c++\lab works\maths\maths\mathematics.h
+	<iostream>
+
+1475748258 source:e:\study\c++\lab works\maths\maths\mathematics.cpp
+	"Mathematics.h"
+

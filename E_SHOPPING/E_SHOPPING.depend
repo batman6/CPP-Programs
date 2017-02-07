@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1476451196 source:c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\cart.cpp
+	<iostream>
+	<fstream>
+	"cart.h"
+
+1476399360 c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\cart.h
+
+1476514103 source:c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\login.cpp
+	<iostream>
+	<cstdlib>
+	<fstream>
+	"login_vars.h"
+	"product_vars.h"
+	"cart.h"
+	"payment_vars.h"
+
+1476399360 c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\login_vars.h
+
+1476514205 c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\product_vars.h
+
+1476399360 c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\payment_vars.h
+
+1476763825 source:c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"main_vars.h"
+	"login_vars.h"
+
+1476399360 c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\main_vars.h
+
+1476513562 source:c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\payment.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	"payment_vars.h"
+
+1476449719 source:c:\users\monish de\downloads\compressed\cpp-sem2-project-master_2\cpp-sem2-project-master\product.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	"product_vars.h"
+	"cart.h"
+
